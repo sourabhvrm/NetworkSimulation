@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="730.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="networks.NodeDisplayPageController">
+   <children>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="680.0" prefWidth="765.0" spacing="10.0">
+         <children>
+            <HBox prefHeight="160.0" prefWidth="765.0" spacing="10.0">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <VBox prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L1" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA1" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L2" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA2" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="165.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L3" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA3" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="320.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L4" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA4" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="475.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L5" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA5" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="160.0" prefWidth="765.0" spacing="10.0">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <VBox prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L6" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA6" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L7" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA7" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="165.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L8" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA8" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="320.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L9" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA9" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="475.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L10" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA10" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="180.0" prefHeight="160.0" prefWidth="765.0" spacing="10.0">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <VBox prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L11" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA11" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L12" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA12" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="165.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L13" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA13" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="320.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L14" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA14" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="475.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L15" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA15" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="350.0" prefHeight="160.0" prefWidth="765.0" spacing="10.0">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <VBox prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L16" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA16" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L17" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA17" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="165.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L18" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA18" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="320.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L19" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA19" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+                  <VBox layoutX="475.0" layoutY="20.0" prefHeight="120.0" prefWidth="145.0" spacing="2.0">
+                     <children>
+                        <Label fx:id="L20" disable="true" prefHeight="22.0" prefWidth="145.0" text="Node IP : " />
+                        <TextArea fx:id="TA20" disable="true" editable="false" prefHeight="115.0" prefWidth="145.0">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                     <padding>
+                        <Insets top="1.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="exitButton" layoutX="362.0" layoutY="693.0" mnemonicParsing="false" onAction="#exitButtonActionPerformed" text="Exit" />
+   </children>
+</AnchorPane>

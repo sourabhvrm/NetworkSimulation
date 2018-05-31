@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="networks.HomePageController">
+   <children>
+      <HBox layoutX="40.0" layoutY="15.0" prefHeight="380.0" prefWidth="580.0" spacing="10.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="90.0">
+               <children>
+                  <Button fx:id="RT1" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT2" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT3" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT4" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="40.0" layoutY="40.0" prefHeight="200.0" prefWidth="100.0" spacing="90.0">
+               <children>
+                  <Button fx:id="RT5" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT6" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT7" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT8" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="160.0" layoutY="40.0" prefHeight="200.0" prefWidth="100.0" spacing="90.0">
+               <children>
+                  <Button fx:id="RT9" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT10" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT11" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT12" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="280.0" layoutY="40.0" prefHeight="200.0" prefWidth="100.0" spacing="90.0">
+               <children>
+                  <Button fx:id="RT13" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT14" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT15" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT16" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="400.0" layoutY="40.0" prefHeight="200.0" prefWidth="100.0" spacing="90.0">
+               <children>
+                  <Button fx:id="RT17" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT18" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT19" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+                  <Button fx:id="RT20" minHeight="0.0" minWidth="0.0" mnemonicParsing="false" onAction="#setCurrentButton" prefHeight="0.0" prefWidth="0.0" />
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="30.0" top="30.0" />
+         </padding>
+      </HBox>
+      <Separator layoutY="430.0" prefWidth="640.0" />
+      <VBox layoutX="40.0" layoutY="455.0" prefHeight="100.0" prefWidth="580.0" spacing="17.0">
+         <children>
+            <HBox prefHeight="25.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label prefHeight="22.0" prefWidth="153.0" text="Enter No of Nodes : " />
+                  <TextField fx:id="nodesnoTF" onAction="#nodesnoTFActionPerformed" />
+                  <CheckBox fx:id="killCheckBox" disable="true" mnemonicParsing="false" onAction="#killCheckBoxActionPerformed" prefHeight="26.0" prefWidth="76.0" text="Kill" />
+                  <Button fx:id="showConnNodesBT" mnemonicParsing="false" onAction="#showConnNodesButtonActionPerformed" prefHeight="26.0" prefWidth="203.0" text="Show Connected Nodes" />
+               </children></HBox>
+            <HBox prefHeight="25.0" prefWidth="200.0" spacing="25.0">
+               <children>
+                  <Label fx:id="actasLabel" disable="true" text="Act as : " />
+                  <RadioButton fx:id="SourceRB" disable="true" mnemonicParsing="false" onAction="#setSourceRadioButton" text="Source">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="typeofNode" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="DestRB" disable="true" mnemonicParsing="false" onAction="#setDestRadioButton" text="Destination" toggleGroup="$typeofNode" />
+                  <RadioButton fx:id="RouterRB" disable="true" mnemonicParsing="false" onAction="#setRouterRadioButton" text="Router" toggleGroup="$typeofNode" />
+                  <Label fx:id="NodedisplayLabel" prefHeight="23.0" prefWidth="180.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="25.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label fx:id="EnterTextLabel" disable="true" prefHeight="26.0" prefWidth="152.0" text="Enter Text to Send : " />
+                  <TextField fx:id="dataTF" disable="true" onAction="#ReadyButtonActionPerformed" prefHeight="26.0" prefWidth="176.0" />
+                  <Button fx:id="ReadyButton" disable="true" mnemonicParsing="false" onAction="#ReadyButtonActionPerformed" text="Ready" />
+                  <Button fx:id="SendButton" disable="true" mnemonicParsing="false" onAction="#SendButtonActionPerformed" text="Send" />
+               </children></HBox>
+         </children>
+      </VBox>
+      <Separator layoutX="637.0" orientation="VERTICAL" prefHeight="580.0" />
+      <Label fx:id="inputListLabel" disable="true" layoutX="700.0" layoutY="22.0" text="Input Queue" />
+      <Label fx:id="outputListLabel" disable="true" layoutX="695.0" layoutY="237.0" text="Output Queue" />
+      <TextArea fx:id="inputList" disable="true" editable="false" layoutX="670.0" layoutY="40.0" prefHeight="175.0" prefWidth="150.0" />
+      <TextArea fx:id="outputList" disable="true" editable="false" layoutX="666.0" layoutY="255.0" prefHeight="175.0" prefWidth="150.0" />
+      <Label layoutX="648.0" layoutY="432.0" text="Status" />
+      <TextArea fx:id="statusTA" editable="false" layoutX="648.0" layoutY="450.0" prefHeight="104.0" prefWidth="192.0" />
+   </children>
+</AnchorPane>
